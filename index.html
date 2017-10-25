@@ -25,7 +25,8 @@
         console.log("This is the thing that was passed in: " + somethingPassedIn);
 
         // and you can update the screen like this
-        document.getElementById('resultsFromCode01').innerHTML = somethingPassedIn
+        let textFromScreen = document.getElementById('resultsFromCode01').innerHTML;
+        document.getElementById('resultsFromCode01').innerHTML = somethingPassedIn + "   <==>   " + textFromScreen
 
     }
 </script>
